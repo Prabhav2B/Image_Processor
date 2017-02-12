@@ -4,8 +4,6 @@ global IPD_PATH;
 
 //This Program Will Process Imagees
 //This is the second Draft after reading through the Tutorial once
-//Scilab is was better that I thought it was
-//It was just a Spade in a Bakers hand
 
 printf("-----------Welcome To Primal Image Processor A.2--------------- \n")
 printf("\nThis Program Will Allow you to Process and edit Images, which can be used \nin various fields like Civil Surveying,Photo Editors,Artificially Intellegent Programs, \nThe Internet Of Things and even Big Data, but for all of these there \nis one thing they cant work without, Would You Kindly provide the Image ? \n")
@@ -18,7 +16,7 @@ select ch
 
     case 1 then
 temp=0;
-while(temp~=1)//Good old while loop
+while(temp~=1)
 path=input("Pls. Enter Image File Path which is to be processed............")
 RGB = ReadImage(IPD_PATH + path);
 Image = RGB2Gray(RGB);//Converted to Gray Scale (Matrix of gray Values)
@@ -26,7 +24,7 @@ figure();ShowColorImage(RGB, 'Color Image');
 printf("The no . Pixels in the row are %d \n",size(Image,1));
 printf("The no . Pixels in the column are %d \n",size(Image,2));
 temp = input("Enter 1 To Confirm This is The Image you wanted.............")
-close()//No other peron would care this much -_-
+close()
 
 printf("\nAs A Necessary step, the Image will now be converted to GrayScale \nand you will also be presented with its histogram \nPress ENTER to continue\n\n")
 figure();
