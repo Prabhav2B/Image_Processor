@@ -9,7 +9,7 @@ printf("-----------Welcome To Primal Image Processor A.2--------------- \n")
 printf("\nThis Program Will Allow you to Process and edit Images, which can be used \nin various fields like Civil Surveying,Photo Editors,Artificially Intellegent Programs, \nThe Internet Of Things and even Big Data, but for all of these there \nis one thing they cant work without, Would You Kindly provide the Image ? \n")
 printf("\n<<<<Since This Program will involve quite some Graphic Windows \nmake sure to check back on the console window often>>>>")
 disp("")
-printf("Would you Like to Use a pre-existing Image or Create your own Image? \nPress 1 to use Pre-existing Image \nPress 2 to Create your won Image \n")
+printf("Would you Like to Use a pre-existing Image or Create your own Image? \nPress 1 to use Pre-existing Image \nPress 2 to Create your own Image \n")
 ch=input("")
 
 select ch
